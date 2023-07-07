@@ -1,6 +1,7 @@
 # FE 프리온보딩 챌린지 1주차
 ## [1주차 과제 설명](https://lean-mahogany-686.notion.site/1-4-00a9f0c9a42641d18ddc989ceb412f1d)
 ### 과제 1) 사전 과제 3번 문제 보강해서 블로그에 작성하기
+- [지난주에 한거](https://github.com/hwanfront/study/blob/main/etc/wanted_pre_challenge_fe.md)
 ### 과제 2) React와 History API 사용하여 SPA Router 기능 구현하기
 #### 1) 해당 주소로 진입했을 때 아래 주소에 맞는 페이지가 렌더링 되어야 한다.
 - `/` → `root` 페이지
