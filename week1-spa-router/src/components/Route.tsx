@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import * as React from "react";
 import LocationContext from "../context/LocationContext";
 
 interface RouteProps {
@@ -7,7 +7,7 @@ interface RouteProps {
 }
 
 const Route = ({ path, component }: RouteProps) => {
-  const { location } = useContext(LocationContext);
+  const { location } = React.useContext(LocationContext);
 
   return location.pathname === path ? <>{component}</> : null;
 }

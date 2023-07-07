@@ -1,5 +1,10 @@
 import { createContext } from "react"
-import type { Location } from "../utils/createRouter";
+
+export interface Path {
+  pathname: string;
+}
+
+export interface Location extends Path {}
 
 interface LocationContextObject {
   location: Location
